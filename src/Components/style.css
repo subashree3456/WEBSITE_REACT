@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/src/images/fireworks.jpg') no-repeat center center/cover;
+}
+
+nav{
+    width:80%;
+    margin:0 auto;
+    height:20%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    color:white;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    padding: 0.3rem 1rem;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover{
+    /* background: rgba(0,0,0,0.5); */
+    background: grey;
+    border-radius: 20px;
+}
+
+.logo{
+    font-size:28px;
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 0 5px rgba(0,0,0,0.2);
+}
+
+.box{
+    display: flex;
+}
